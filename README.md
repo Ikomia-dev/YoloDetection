@@ -3,7 +3,7 @@ Implementation of YOLO DNN inference with OpenCV
 
 We give a Python script to launch inference (detection):
 
-```shell
+```console
 python detection.py "SourceImage" "ConfigFile" "WeightsFile" "ClassFile"
 ```
 
