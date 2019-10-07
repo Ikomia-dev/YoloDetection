@@ -154,10 +154,10 @@ def detect_folder(image_folder, config_file, weights_file, classes_file):
 
 # Test only
 def test_detection():
-    classes_file = "/home/ludo/Developpement/Clients/Natuition/YoloV3/classes.names"
-    config_file = "/home/ludo/Developpement/Clients/Natuition/YoloV3/Training1/yolov3_plantain_inference.cfg"
-    weights_file = "/home/ludo/Developpement/Clients/Natuition/YoloV3/Training1/yolov3_plantain_final.weights"
-    image_folder = "/home/ludo/Developpement/Clients/Natuition/YoloV3/Dataset/Plantain"
+    classes_file = "YoloV3/classes.names"
+    config_file = "YoloV3/Training1/yolov3_inference.cfg"
+    weights_file = "YoloV3/Training1/yolov3_best.weights"
+    image_folder = "YoloV3/Dataset"
     cv2.namedWindow(window_name, cv2.WINDOW_NORMAL)
     cv2.resizeWindow(window_name, window_size)
     detect_folder(image_folder, config_file, weights_file, classes_file)
